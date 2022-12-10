@@ -42,7 +42,7 @@ public class RepeatedStringAlgo {
 	
 	public static void main(String[] args) {
 		
-		String s = "x";
+		String s = "xtx";
 		long n = 970770;
 		
 		System.out.println("total repeated String: "+repeatedString(s, n));
