@@ -1,7 +1,7 @@
 package hackerrank.challenges;
 
 public class CountingValley {
-
+	
     public static int countingValleys(int steps, String path) {
 
     	int hicker = 0;
@@ -26,7 +26,10 @@ public class CountingValley {
 		
 		String path = "DDUUUDDUUD";
 		int steps = path.length();
-
+		
+		String str1 = "hello";
+		String str2 = "hello";
+		
 		System.out.println("Total valley visited: "+countingValleys(steps, path));
 	}
 
